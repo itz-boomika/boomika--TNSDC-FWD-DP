@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Boomika - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm Boomika</h1>
+    <p>BCA II Year Student</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a computer science student currently studying BCA II year at Shree Raghavendra Arts and Science College. My goal is to become a data scientist.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>C</li>
+      <li>C++</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <section id="project">
+    <h2>Project</h2>
+    <div class="project-card">
+      <h3>My Portfolio</h3>
+      <p>This project is a personal portfolio website developed using HTML, CSS, and JavaScript. It showcases my skills, background, and contact information.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="message"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Boomika. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
